@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>lidar_filter</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>The lidar_filter package</description>
-  <maintainer email="57326251+skasts@users.noreply.github.com">Simon Kast</maintainer>
+  <maintainer email="skasts@todo.todo">skasts</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>

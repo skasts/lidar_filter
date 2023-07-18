@@ -1,6 +1,6 @@
 # lidar_filter
 
-This pkg filters a sensor_msgs/PointCloud2 msg (default topic `/rslidar_points_unfiltered`) and republishes it ((default topic `/rslidar_points`). The )filter clips points that are within a specified box around `base_link`.
+This pkg filters a sensor_msgs/PointCloud2 msg (default topic `/rslidar_points_unfiltered`) and republishes it (default topic `/rslidar_points`). The filter clips points that are within a specified box around `base_link`.
 
 Parameters are:
 - `input_topic` (default: /rslidar_points_unfiltered)
