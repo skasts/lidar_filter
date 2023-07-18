@@ -37,6 +37,9 @@ class LidarFilterNode:
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer)
 
+        # Sleep for 0.5 seconds to give the TF2 buffer time to fill
+        rospy.sleep(1.0)
+
         self.transformed_corner_points = []
         for corner_point in corner_points:
             # Create a PoseStamped message with the corner point coordinates in the base_link frame
